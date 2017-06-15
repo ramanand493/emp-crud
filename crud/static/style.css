@@ -1,0 +1,185 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+#header {
+    height: 120px;
+    background-color: #FFFFFF !important;
+    position: relative;
+    border-width: 2px;
+    border-bottom: 2px blue solid;
+    width: 100%;
+}
+#cover {
+    background-image: url("cover2.jpg");
+    height: 100vh;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}
+.nav {
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    color: #5a5adb;
+}
+fontlarge {
+    font-size: 200%;
+    font-weight: bold;
+}
+.nav-large {
+    height: 80px;
+    align-items: center;
+}
+.nav-large {
+    height: 80px;
+    align-items: center;
+}
+ul.list-inline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.list-inline li {
+    display: inline-block;
+    padding: 5px;
+}
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 3px solid #8d8dff;
+    padding: 0px;
+    margin: 0px;
+}
+#cover {
+    position: relative;
+}
+#contain {
+    position: absolute;
+    height: 332px;
+    width: 40%;
+    border: 1px solid black;
+    left: 30%;
+    top: 10%;
+    background: rgba(0, 0, 0, 0.6);
+}
+#head {
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    background: #2432da;
+    ;
+    opacity: 0.8;
+}
+#admin {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+}
+#head h3 {
+    padding: 2%;
+    margin-left: 25%;
+}
+.login {
+    width: 90%;
+    height: 4%;
+    margin-left: 5%;
+    margin-top: 3%;
+    padding: 6px 6px;
+    box-sizing: border-box;
+}
+#btn {
+    width: 90%;
+    height: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: white;
+    padding: 12px 20px;
+    background: #2432da;
+    opacity: 3;
+    border: 1px solid #2432da;
+}
+input {
+    font-weight: bold;
+    font-size: 16px;
+    color: #2432da;
+}
+
