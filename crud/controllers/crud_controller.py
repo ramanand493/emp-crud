@@ -8,7 +8,8 @@ app.secret_key = os.urandom(24)
 
 @app.route('/')
 def index():
-    return render_template("view.html")
+    data = crud_model.Emp.query.all()
+    return render_template("view.html", data=data)
 
 @app.route('/view')
 def d_view():
